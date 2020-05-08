@@ -1,0 +1,31 @@
+/* COLOR NAME */
+h1 {
+    color: red;
+}
+
+li {
+    color: green;
+}
+
+h4 {
+    color: orange;
+}
+
+/* HEXADECIMAL */
+
+
+h1 {
+    color: #FF8000;
+}
+
+
+/* RGB */
+
+h1 {
+    color: rgb(255,0,0)
+}
+
+/* RGBA */
+h1 {
+    color: rgba(255,0,0,.5)
+}
