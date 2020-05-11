@@ -15,32 +15,31 @@ body {
     width: 80%;
     max-width: 700px;
 }
-h3 {
+.date {
     color: #3498db;
-    text-transform: uppercase;
     letter-spacing: 0.2rem;
+    text-transform: uppercase;
 }
 h2 {
-    color: #2c3e50;
     font-size: 2.0rem;
-}
-div:nth-of-type(1) p:nth-of-type(1) {
-    border-left: 4px solid #bcd3c7;
-    padding: 3px;
+    font-weight: bold;
+    color: #2c3e50;
 }
 div:nth-of-type(2) p:nth-of-type(1) {
     border-left: 4px solid #bcd3c7;
     padding: 3px;
 }
-div:nth-of-type(3) p:nth-of-type(1) {
+div:nth-of-type(4) p:nth-of-type(1) {
+    border-left: 4px solid #bcd3c7;
+    padding: 3px;
+}
+div:nth-of-type(6) p:nth-of-type(1) {
     border-left: 4px solid #bcd3c7;
     padding: 3px;
 }
 hr {
-    border: none;
-    border-top: 1px solid #bcd3c7;
-   
-    overflow: visible;
-    text-align: center;
-    height: 5px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
